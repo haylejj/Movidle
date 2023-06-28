@@ -1,0 +1,28 @@
+#lion {
+    -fx-background-color:
+            rgba(180, 123, 123, 0.08),
+            linear-gradient(#ee5e5e, #b45151),
+            linear-gradient(#c2aeae 0%, #f3f3f3 50%, #ececec 51%, #8d8282 100%);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: #16324b;
+    -fx-font-size: 14px;
+    -fx-font-style: italic;
+    -fx-font-weight:BOLD;
+}
+
+#lion:hover {
+    -fx-background-color:
+            linear-gradient(#d31a1a, #644141),
+            linear-gradient(#8a3f3f 0%, #b75757 20%, #751515 100%),
+            linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-weight:BOLD;
+}
+hbox1{
+
+}

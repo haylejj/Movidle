@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #F2D2BD;" xmlns="http://javafx.com/fxml" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movidlegame.UIController">
+   <children>
+      <HBox fx:id="Hbox1" layoutX="63.0" layoutY="279.0" prefHeight="55.0" prefWidth="600.0" spacing="5.0" style="-fx-border-style: solid;" visible="false">
+         <children>
+            <Button fx:id="btn00" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn01" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn02" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn03" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn04" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Button>
+            <Button fx:id="btn05" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </HBox>
+      <HBox fx:id="Hbox2" layoutX="63.0" layoutY="334.0" prefHeight="55.0" prefWidth="600.0" spacing="5.0" style="-fx-border-style: solid;" visible="false">
+         <children>
+            <Button fx:id="btn10" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn11" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn12" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn13" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn14" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn15" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </HBox>
+      <HBox fx:id="Hbox3" layoutX="63.0" layoutY="389.0" prefHeight="55.0" prefWidth="600.0" spacing="5.0" style="-fx-border-style: solid;" visible="false">
+         <children>
+            <Button fx:id="btn20" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn21" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn22" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn23" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn24" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn25" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </HBox>
+      <HBox fx:id="Hbox4" layoutX="63.0" layoutY="444.0" prefHeight="55.0" prefWidth="600.0" spacing="5.0" style="-fx-border-style: solid;" visible="false">
+         <children>
+            <Button fx:id="btn30" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn31" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn32" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn33" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn34" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn35" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </HBox>
+      <HBox fx:id="Hbox5" layoutX="63.0" layoutY="499.0" prefHeight="55.0" prefWidth="600.0" spacing="5.0" style="-fx-border-style: solid;" visible="false">
+         <children>
+            <Button fx:id="btn40" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn41" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn42" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn43" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn44" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btn45" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="Button" />
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </HBox>
+      <Button id="lion" fx:id="btnGuess" layoutX="500.0" layoutY="42.0" mnemonicParsing="false" onAction="#onClickGuess" prefHeight="26.0" prefWidth="161.0" stylesheets="@../../../styleButton.css" text="Guess" />
+      <TextField fx:id="textfield1" layoutX="176.0" layoutY="42.0" onKeyPressed="#onKeyPressedTextfield" prefHeight="25.0" prefWidth="272.0" style="-fx-border-color: black;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></TextField>
+      <Button id="lion" layoutX="500.0" layoutY="92.0" mnemonicParsing="false" onAction="#onClickReset" prefHeight="26.0" prefWidth="161.0" stylesheets="@../../../styleButton.css" text="Restart Game" />
+      <ListView fx:id="listview1" layoutX="176.0" layoutY="69.0" prefHeight="200.0" prefWidth="272.0" visible="false" />
+      <ImageView fx:id="imageview1" fitHeight="501.0" fitWidth="261.0" layoutX="724.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</Pane>
