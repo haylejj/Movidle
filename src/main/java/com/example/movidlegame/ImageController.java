@@ -43,7 +43,7 @@ public class ImageController {
             BufferedReader reader=new BufferedReader(new FileReader("C:\\Users\\cagat\\OneDrive\\Masaüstü\\imdb_top_250_images.csv"));
             while ((line=reader.readLine())!=null){
                 arrayImage = line.split(regex);
-                addImageToLıst(listImage,arrayImage);
+                addImageToList(listImage,arrayImage);
             }
         }
         catch(Exception exception){
@@ -51,7 +51,7 @@ public class ImageController {
         }
         return listImage;
     }
-    public static void addImageToLıst(List<ImageController> listImage, String[] data){
+    public static void addImageToList(List<ImageController> listImage, String[] data){
         listImage.add(new ImageController(data[0].trim(),data[1].trim()));
     }
     public static String displayImage(String id){
