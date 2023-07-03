@@ -16,7 +16,7 @@ public class FileController {
         String line="";
         String regex=";";
         try{
-            BufferedReader reader=new BufferedReader(new FileReader("C:\\Users\\cagat\\OneDrive\\Masaüstü\\imdb_top_250.csv", StandardCharsets.ISO_8859_1));
+            BufferedReader reader=new BufferedReader(new FileReader("imdbLists\\imdb_top_250.csv",StandardCharsets.ISO_8859_1));
             while ((line=reader.readLine())!=null){ // satırın sonuna kadar okur
                 arrayMovie = line.split(regex);
                 addMovieToList(listMovie,arrayMovie);

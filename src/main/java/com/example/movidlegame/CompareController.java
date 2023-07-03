@@ -5,7 +5,6 @@ import javafx.scene.control.Button;
 public class CompareController {
 
     public static void compareMovie(Movie selectedMovie, Movie foundMovie, Button button1,Button button2,Button button3,Button button4,Button button5,Button button6){
-
         if (selectedMovie.getTitle().equals(foundMovie.getTitle())){
             ButtonController.backgroundToGreen(button1);
         }

@@ -401,7 +401,6 @@ public class UIController {
         System.out.println(selectMovie);
         ImageController.readImageCsvFile();
         imageview1.setVisible(true);
-
         if (counterRight <5) {
             try {
                 boolean isValidMovie = game.validateMovie(movie); // Kullanıcının girdiği filmi listede var mı diye kontrol ettik.
@@ -457,13 +456,13 @@ public class UIController {
                     counter--;
                     Alert alert = new Alert(Alert.AlertType.ERROR);
                     alert.setTitle("Hata");
-                    alert.setHeaderText("Geçersiz Film Adı!!!");
+                    alert.setHeaderText("Listede Olmayan Bir Film Girdiniz!!");
                     alert.showAndWait();
                 }
             } catch (Exception e) {
                 Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setTitle("Hata");
-                alert.setHeaderText("GEÇERSİZ FİLM GİRDİNİZ.");
+                alert.setHeaderText("Listede Olmayan Bir Film Girdiniz!!");
                 alert.setContentText(e.getMessage());
                 alert.showAndWait();
                 e.printStackTrace();

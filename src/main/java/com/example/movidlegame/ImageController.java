@@ -40,7 +40,7 @@ public class ImageController {
         String line="";
         String regex=";";
         try{
-            BufferedReader reader=new BufferedReader(new FileReader("C:\\Users\\cagat\\OneDrive\\Masaüstü\\imdb_top_250_images.csv"));
+            BufferedReader reader=new BufferedReader(new FileReader("imdbLists\\imdb_top_250_images.csv"));
             while ((line=reader.readLine())!=null){
                 arrayImage = line.split(regex);
                 addImageToList(listImage,arrayImage);
